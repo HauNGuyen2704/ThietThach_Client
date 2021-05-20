@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B209D1092654CD9F00EF29AF /* Router_BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209D1082654CD9F00EF29AF /* Router_BottomNavigation.swift */; };
+		B209D10B2654CDC800EF29AF /* BottomNavigationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209D10A2654CDC800EF29AF /* BottomNavigationTab.swift */; };
+		B209D10D2654CDDB00EF29AF /* SlideImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209D10C2654CDDB00EF29AF /* SlideImages.swift */; };
+		B209D1112654CE1600EF29AF /* LogoCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209D1102654CE1600EF29AF /* LogoCenterView.swift */; };
+		B209D1132654CE2D00EF29AF /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209D1122654CE2D00EF29AF /* LoginScreen.swift */; };
+		B209D1152654D5DE00EF29AF /* ThuVienMauNhaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209D1142654D5DE00EF29AF /* ThuVienMauNhaScreen.swift */; };
+		B33C58D32651308400262C33 /* ThietThachClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C58D22651308400262C33 /* ThietThachClientApp.swift */; };
+		B33C58D52651308400262C33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C58D42651308400262C33 /* ContentView.swift */; };
+		B33C58D72651308500262C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33C58D62651308500262C33 /* Assets.xcassets */; };
+		B33C58DA2651308500262C33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33C58D92651308500262C33 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B209D1082654CD9F00EF29AF /* Router_BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router_BottomNavigation.swift; sourceTree = "<group>"; };
+		B209D10A2654CDC800EF29AF /* BottomNavigationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationTab.swift; sourceTree = "<group>"; };
+		B209D10C2654CDDB00EF29AF /* SlideImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideImages.swift; sourceTree = "<group>"; };
+		B209D1102654CE1600EF29AF /* LogoCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoCenterView.swift; sourceTree = "<group>"; };
+		B209D1122654CE2D00EF29AF /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		B209D1142654D5DE00EF29AF /* ThuVienMauNhaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuVienMauNhaScreen.swift; sourceTree = "<group>"; };
+		B33C58CF2651308400262C33 /* ThietThachClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThietThachClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33C58D22651308400262C33 /* ThietThachClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThietThachClientApp.swift; sourceTree = "<group>"; };
+		B33C58D42651308400262C33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B33C58D62651308500262C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B33C58D92651308500262C33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B33C58DB2651308500262C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33C59032651322A00262C33 /* MaytechFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaytechFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B33C58CC2651308400262C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20969022656803800F55DDF /* SupportViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportViews;
+			sourceTree = "<group>";
+		};
+		B209D1062654CD7500EF29AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B209D10A2654CDC800EF29AF /* BottomNavigationTab.swift */,
+				B209D10C2654CDDB00EF29AF /* SlideImages.swift */,
+				B209D1102654CE1600EF29AF /* LogoCenterView.swift */,
+				B209D1122654CE2D00EF29AF /* LoginScreen.swift */,
+				B209D1142654D5DE00EF29AF /* ThuVienMauNhaScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B209D1072654CD7C00EF29AF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B209D1082654CD9F00EF29AF /* Router_BottomNavigation.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B25F18BF2656642000DB4ED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B33C58C62651308300262C33 = {
+			isa = PBXGroup;
+			children = (
+				B33C58D12651308400262C33 /* ThietThachClient */,
+				B33C58D02651308400262C33 /* Products */,
+				B33C59022651322900262C33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B33C58D02651308400262C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B33C58CF2651308400262C33 /* ThietThachClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B33C58D12651308400262C33 /* ThietThachClient */ = {
+			isa = PBXGroup;
+			children = (
+				B20969022656803800F55DDF /* SupportViews */,
+				B25F18BF2656642000DB4ED5 /* Model */,
+				B209D1072654CD7C00EF29AF /* Router */,
+				B209D1062654CD7500EF29AF /* Views */,
+				B33C58D22651308400262C33 /* ThietThachClientApp.swift */,
+				B33C58D42651308400262C33 /* ContentView.swift */,
+				B33C58D62651308500262C33 /* Assets.xcassets */,
+				B33C58DB2651308500262C33 /* Info.plist */,
+				B33C58D82651308500262C33 /* Preview Content */,
+			);
+			path = ThietThachClient;
+			sourceTree = "<group>";
+		};
+		B33C58D82651308500262C33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B33C58D92651308500262C33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B33C59022651322900262C33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33C59032651322A00262C33 /* MaytechFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B33C58CE2651308400262C33 /* ThietThachClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33C58DE2651308500262C33 /* Build configuration list for PBXNativeTarget "ThietThachClient" */;
+			buildPhases = (
+				B33C58CB2651308400262C33 /* Sources */,
+				B33C58CC2651308400262C33 /* Frameworks */,
+				B33C58CD2651308400262C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThietThachClient;
+			productName = ThietThachClient;
+			productReference = B33C58CF2651308400262C33 /* ThietThachClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B33C58C72651308300262C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					B33C58CE2651308400262C33 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = B33C58CA2651308300262C33 /* Build configuration list for PBXProject "ThietThachClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B33C58C62651308300262C33;
+			productRefGroup = B33C58D02651308400262C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B33C58CE2651308400262C33 /* ThietThachClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B33C58CD2651308400262C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C58DA2651308500262C33 /* Preview Assets.xcassets in Resources */,
+				B33C58D72651308500262C33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B33C58CB2651308400262C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B209D10B2654CDC800EF29AF /* BottomNavigationTab.swift in Sources */,
+				B209D1152654D5DE00EF29AF /* ThuVienMauNhaScreen.swift in Sources */,
+				B209D1092654CD9F00EF29AF /* Router_BottomNavigation.swift in Sources */,
+				B33C58D52651308400262C33 /* ContentView.swift in Sources */,
+				B209D1112654CE1600EF29AF /* LogoCenterView.swift in Sources */,
+				B209D1132654CE2D00EF29AF /* LoginScreen.swift in Sources */,
+				B33C58D32651308400262C33 /* ThietThachClientApp.swift in Sources */,
+				B209D10D2654CDDB00EF29AF /* SlideImages.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B33C58DC2651308500262C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B33C58DD2651308500262C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B33C58DF2651308500262C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ThietThachClient/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AMK848546;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ThietThachClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.maytech.ThietThachClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B33C58E02651308500262C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ThietThachClient/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AMK848546;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ThietThachClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.maytech.ThietThachClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B33C58CA2651308300262C33 /* Build configuration list for PBXProject "ThietThachClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33C58DC2651308500262C33 /* Debug */,
+				B33C58DD2651308500262C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33C58DE2651308500262C33 /* Build configuration list for PBXNativeTarget "ThietThachClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33C58DF2651308500262C33 /* Debug */,
+				B33C58E02651308500262C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B33C58C72651308300262C33 /* Project object */;
+}
